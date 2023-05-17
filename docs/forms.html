@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-forms</title>
+</head>
+
+<body>
+    <div>Forms</div>
+
+    <div>
+        <form action="main.html">
+            검색 : <input type="text" name="search">
+            <input type="submit">
+        </form>
+    </div>
+    <hr>
+    <div>
+        <form action="index.html">
+            <div>
+                First name : <input type="text" name="first">
+            </div>
+            <div>
+                Second name : <input type="text" name="second">
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+
+        </form>
+    </div>
+    <hr>
+    <div>
+        <form action="index.html">
+            <div>
+                E-mail : <input type="email" name="myemail" Value="leeban1004@naver.com">
+            </div>
+            <div>
+                Password : <input type="password" name="mypassword">
+            </div>
+            <div>
+                Date : <input type="date" name="mydate" value="2023-05-16">
+            </div>
+            <div>
+                File : <input type="file" name="mydfile">
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+            <div>
+                <form action="main.html">
+                    검색 : <input type="text" name="search">
+                    <input type="submit">
+                </form>
+            </div>
+            <hr>
+            <div>
+                <form action="index.html">
+                    <div>
+                        Check first : <input type="checkbox" name="myecheckfirst" checked>
+                        Check second : <input type="checkbox" name="myechecksecond">
+                        <label for="idcheckthird">Label check third : </label>
+                        <input type="checkbox" name="myecheckthird" id="idcheckthird">
+                    </div>
+                    <div>
+                        Hidden First : <input type="hidden" name="myhiddenfirst" value="2">
+                    </div>
+                    <div>
+                        <input type="submit">
+                    </div>
+                </form>
+                <hr>
+            </div>
+            <div>
+                <form action="index.html">
+                    <div>
+                        first name : <input type="text" name="first">
+                
+                    </div>
+                    <div>
+                        <div>
+                            content :
+                        </div>
+                        
+                        <textarea name="my content" id="" cols="30" rows="10">입력하는 곳입니다.</textarea>
+                    </div>
+                    
+                    <div>
+                        <input type="submit">
+                    </div>
+                </form>
+                <hr>
+            </div>
+</body>
+
+</html>
